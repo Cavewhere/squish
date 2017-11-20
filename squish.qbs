@@ -5,6 +5,7 @@ StaticLibrary {
 
     Depends { name: "cpp" }
     cpp.includePaths: "."
+    cpp.minimumMacosVersion: "10.7"
 
     Export {
         Depends { name: "cpp" }
